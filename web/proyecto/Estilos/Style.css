@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Maitree:wght@200&display=swap');
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    list-style: none;
+}
+
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 19px;
+    color: white;
+}
+
+ul li a:hover{
+    background: #85C1E9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-titulo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+/*===================================================================*/
+/*===================================================================*/
+/*===================================================================*/
+
+.loguito{
+    background: url(foto_1.jpg);
+    background-size: cover; /*el tamaño de la foto, para que cubra todo el espacio*/
+    background-repeat: no-repeat; /*Para que la imagen no se repita en caso la foto sea pequeña*/
+    background-position: center; /*para centrar el fondo*/
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+.container-form{
+    min-width: 100%;
+}
+
+.message {
+    padding: 1rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.sign-up-btn{
+    border: #222;
+}
+
+.message h2 {
+    font-size: 7rem;
+
+}
+
+.message p{
+    font-size: 1rem;
+}
+
+.content-header h1{
+    font-size: 7rem;
+}
+
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #7DCEA0;
+    color: white;
+    border-radius: 30px;
+}
+
+.content-header a:hover{ /* cambia de color cuando acerco el cursor*/
+    background: #A9DFBF;
+    border: 1px solid #FDFEFE;
+    padding: 14px 19px;
+
+}
+
+/*=======================================================*/
+/*=======================================================*/
+
+.container-form {   /*CODIGO PARA MOVER EL FORMULARIO*/
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition:  all .5s ease-out;
+}
+
+.welcome-back {     /*CODIGO PARA MOVER EL TITULO, EL MENSAJE Y EL BOTON*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {   /*CODIGO PARA DAR UN ESPACIADO*/
+    padding: 1rem;
+}
+
+.message button { /*CODIGO PARA DARLE FORMA AL BOTON DE "INCIAR SESION"*/
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #7DCEA0;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover { /*CODIGOS PARA DARLE COLOR AL BOTON CUANDO PASAMOS EL CURSOR*/
+    background-color: #73C6B6;
+}
+
+.formulario { /*CODIGO PARA DARLE COLOR TRANSPARENTE AL FORMULARIO*/
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+}
+
+.create-account { /*CODIGOS PARA DAR ESPACIADO EN "CREAR UNA CUENTA"*/
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos { /*CODIGOS PARA PONER LOS ICONOS DE MANERA HORIZONTAL*/
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-icon { /*CODIGO PARA QUE EL COLOR DE LOS ICONOS NO SE SALGA DEL BORDE*/
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover { /*CODIGOS PARA DARLE COLOR A LOS ICONOS CUANDO PASAMOS EL CURSOR*/
+    background-color: #4a4aee;
+    cursor: pointer;
+}
+
+.cuenta-gratis { /*CODIGOS PARA EL ESPACIADO*/
+    padding: 2rem 0; 
+}
+
+.formulario input { /*CODIGOS PARA LOS TEXT, EN DONDE COLOCAMOS NUESTROS DATOS*/
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+}
+
+.formulario button { /*CODIGO PARA EL BOTON "REGISTRARSE"*/
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
+}
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(20,20,20);
+}
+
+/*PIE DE PAGINA*/
+
+.pie-pagina{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.2rem;
+    background-color: rgb(20,20,20);
+    padding: 2.5rem;
+}
+@media(min-width:768px){
+    .contenedor-piepagina{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+.info{
+    flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+.info h3, .info p{
+    color: white;
+    text-align: center;
+}
+.info h3{
+    font-size: 1.8rem;
+}
+.info p{
+    font-size: 1.2rem;
+}
+.info a{
+    color: white;
+}
+.info h4{
+     color: white;
+}
+.info img{
+    display:block;
+    margin:auto;
+}
+
+/*Nosotros*/
+.section-cover.section-cover-nosotros {
+    background: whitesmoke no-repeat top -760px center;
+    background-size: cover;
+    background-position-y: center;
+}
+.section-cover {
+    width: 100%;
+    height: 394px;
+    background-color: #ffc0cb;
+}
+div {
+    display: block;
+}
+.section-cover .content-section {
+    width: 100%;
+    max-width: 1160px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.section-cover .content-section .description-cover {
+    width: 100%;
+    max-width: 475px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 20px 0 rgb(0 59 92 / 30%);
+    box-shadow: 0 2px 20px 0 rgb(0 59 92 / 30%);
+    background-color: #fff;
+    padding: 26px 28px 28px 40px;
+}
+footer{
+    margin-top: 0.2rem
+}
+
+

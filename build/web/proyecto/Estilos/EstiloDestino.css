@@ -1,0 +1,265 @@
+/*==================ESTILO DESTINOS==================*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Maitree:wght@200&display=swap');
+/*CABECERA*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.description-cover{
+    margin: 2rem
+}
+
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    list-style: none;
+}
+
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 19px;
+    color: white;
+}
+
+ul li a:hover{
+    background: #85C1E9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-titulo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-titulo img{
+    min-width: 230px;
+    min-height: 130px;
+}
+
+.main-nav{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+/*===================================================================*/
+/*===================================================================*/
+/*===================================================================*/
+.menu{
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 80%;
+}           
+
+.texto-viajes{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1.7rem;
+}
+
+@media(min-width: 768px) {
+    .viajes{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+}
+.viaje{
+    flex: 0 0 calc(33.3% - 1rem);
+    border: 1px solid #e1e1e1;
+    padding-bottom: 6rem;
+    border-radius: 5px;
+}
+
+.viaje img{
+    display:block;
+    margin:auto;
+    min-width: 100%;
+    min-height: 80%;
+}
+.viaje h2{
+    text-align: center;
+}
+.viaje p{
+    font-size: 1.8rem;
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+}
+.precio p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.precio button{     /*Codigos para el boton de compra de vuelo*/
+    padding:1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    height: 3.8rem;
+}
+.fa-shopping-basket{    /*Codigos para el color del boton de compra de vuelo*/
+    color: white;
+}
+
+/*globales*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.etiqueta5{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+
+}
+.sec{
+    margin:  10px;
+}
+.etiqueta5 a{
+    text-decoration: none;
+    color: #0057ae;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    max-height: 100px;
+    max-width: 100px;
+
+}
+
+/*==================CONTACTO===============*/
+
+.formulario-contacto{
+    padding-top: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+/*formulario contacto*/
+@media(min-width: 200px) {
+    .formulario-contacto{
+        display: flex;
+    }
+}
+.informacion-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-contacto, .formulario{
+    flex: 0 0 calc(50% - 1rem);
+}
+.informacion-contacto{
+    background-color: black;
+    padding: 1rem;
+}
+
+.informacion-contacto h3, .informacion-contacto p, .redes-sociales i{
+    color: white;
+}
+.informacion-contacto h3{
+    font-size: 2.5rem;
+}
+
+.informacion-contacto p{
+    font-size: 1.5rem;
+  
+}
+.informacion-contacto i{
+    margin-right: 1rem;
+}
+
+.redes-sociales{
+    font-size: 3rem;
+}
+
+.formulario{
+    padding: 2rem;
+}
+
+.input-formulario label{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-formulario input, .input-formulario textarea{
+    width: 100%;
+}
+.input-formulario input, .input-formulario textarea{
+    padding: 1rem 1.6rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    outline: none;
+
+}
+.input-formulario textarea{
+    height: 6rem;
+    resize:none;
+}
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(20,20,20);
+}
+
+/*PIE DE PAGINA*/
+
+.pie-pagina{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.2rem;
+    background-color: rgb(20,20,20);
+    padding: 2.5rem;
+}
+
+@media(min-width:768px){
+    .contenedor-piepagina{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+.info{
+    flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+.info h3, .info p{
+    color: white;
+    text-align: center;
+}
+.info h3{
+    font-size: 1.8rem;
+}
+.info p{
+    font-size: 1.2rem;
+}
+.info a{
+    color: white;
+}
+.info h4{
+     color: white;
+}
+.info img{
+    display:block;
+    margin:auto;
+    min-width: 70%;
+}

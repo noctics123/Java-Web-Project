@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Maitree:wght@200&display=swap');
+body{
+    background-color: #ffffcc;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    list-style: none;
+}
+
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 19px;
+    color: white;
+}
+
+ul li a:hover{
+    background: #85C1E9;
+}
+
+a{
+    text-decoration: none;
+    color: #009999;
+}
+
+.header-titulo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.container-form{
+    min-width: 100%;
+}
+
+.message {
+    padding: 1rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.sign-up-btn{
+    border: #222;
+}
+
+.message h2 {
+    font-size: 7rem;
+
+}
+
+.message p{
+    font-size: 1rem;
+}
+
+.content-header h1{
+    font-size: 7rem;
+}
+
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #7DCEA0;
+    color: white;
+    border-radius: 30px;
+}
+
+.content-header a:hover{ /* cambia de color cuando acerco el cursor*/
+    background: #A9DFBF;
+    border: 1px solid #FDFEFE;
+    padding: 14px 19px;
+
+}
+
+.contenedor{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+}
+
+.imagen{
+        position: relative; /*posicion relativa al punto de inicio*/
+	margin-top: 10px;
+        width: 50%;
+	height: 100%;
+}
+
+.imagen img{
+	width: 80%;
+        height: 100%;
+        object-fit: cover;
+}
+
+h2{
+    margin-top: 120px;
+}
+
+.contenido{
+	margin-top: 15px;
+        margin-left: 300px;
+        margin-right: 300px;
+}
